@@ -1,0 +1,29 @@
+{
+    "name": "octha/obfuscator",
+    "description": "Protect your javascript source code with the simplest and fastest way.",
+    "keywords": [
+        "obfuscator",
+        "ofuscator",
+        "javascript"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Nicolau",
+            "email": "lucas@octha.com"
+        }
+    ],
+    "homepage": "https://github.com/octhahq/obfuscator",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Octha\\Obfuscator\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
